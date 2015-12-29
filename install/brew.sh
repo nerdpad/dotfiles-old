@@ -31,4 +31,4 @@ brew install markdown
 # install neovim
 #brew install neovim/neovim/neovim
 
-exit 0
+#exit 0
