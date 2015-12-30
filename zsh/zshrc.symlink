@@ -64,7 +64,7 @@ export NVM_DIR=~/.nvm
 
 if hash brew 2>/dev/null; then
     source $(brew --prefix nvm)/nvm.sh
-    #source `brew --prefix`/etc/profile.d/z.sh
+    source `brew --prefix`/etc/profile.d/z.sh
 fi
 
 
