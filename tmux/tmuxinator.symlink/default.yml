@@ -1,6 +1,6 @@
-# ~/.tmuxinator/dev.yml
+# ~/.tmuxinator/default.yml
 
-name: dev
+name: default
 root: <%= @args[0] %>
 
 # Optional tmux socket
