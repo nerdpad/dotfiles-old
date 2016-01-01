@@ -12,6 +12,9 @@ if [ "$(uname)" == "Darwin" ]; then
 
     echo "Brewing all the things"
     source install/brew.sh
+    
+    echo "Installing tmuxinator"
+    source install/tmuxinator.sh
 
     echo "Updating OSX settings"
     source installosx.sh

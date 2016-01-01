@@ -26,7 +26,7 @@ set history=1000 " change history to 1000
 set textwidth=120
 
 " Tab control
-set noexpandtab " insert tabs rather than spaces for <Tab>
+set expandtab " insert tabs rather than spaces for <Tab>
 set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
 set tabstop=4 " the visible width of tabs
 set softtabstop=4 " edit as if the tabs are 4 characters wide
@@ -56,6 +56,7 @@ if has('autocmd') && !exists('autocommands_loaded')
     autocmd FileType html setlocal ts=4 sts=4 sw=4 noexpandtab indentkeys-=*<return>
     autocmd FileType jade setlocal ts=2 sts=2 sw=2 noexpandtab
     autocmd FileType *.md.js :call SyntasticReset<cr>
+    autocmd FileType javascript :noremap <buffer> :call SyntasticReset<cr>
     autocmd FileType markdown,textile setlocal textwidth=0 wrapmargin=0 wrap spell
     autocmd FileType .xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
     autocmd FileType crontab setlocal nobackup nowritebackup
