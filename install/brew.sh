@@ -15,6 +15,7 @@ brew install wget
 # development server setup
 brew install nginx
 brew install dnsmasq
+brew install mongodb
 
 # development tools
 brew install git

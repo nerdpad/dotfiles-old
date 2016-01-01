@@ -19,6 +19,9 @@ if [ "$(uname)" == "Darwin" ]; then
     echo "Installing node (from nvm)"
     source install/nvm.sh
 
+    echo "Setting up MongoDB"
+    source install/mongodb.sh
+
     #echo "Configuring nginx"
     # create a backup of the original nginx.conf
     #mv /usr/local/etc/nginx/nginx.conf /usr/local/etc/nginx/nginx.original

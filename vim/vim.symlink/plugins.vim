@@ -68,6 +68,7 @@ Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'timcharper/textile.vim', { 'for': 'textile' }
 " Plug 'tclem/vim-arduino'
 " Plug 'davidoc/taskpaper.vim'
+Plug 'maksimr/vim-jsbeautify'
 
 call plug#end()
 filetype plugin indent on

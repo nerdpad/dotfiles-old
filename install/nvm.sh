@@ -13,3 +13,9 @@ source $(brew --prefix nvm)/nvm.sh
 
 nvm install stable
 nvm alias default stable
+
+# install global node modules
+echo "Install required node modules"
+npm install -g gulp
+npm install -g grunt
+
