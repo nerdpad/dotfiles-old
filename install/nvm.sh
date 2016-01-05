@@ -19,3 +19,4 @@ echo "Install required node modules"
 npm install -g gulp
 npm install -g grunt
 npm install -g eslint
+npm install -g bower
