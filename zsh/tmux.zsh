@@ -7,3 +7,4 @@ alias tks='tmux kill-session'
 
 # tmuxinator aliases
 alias tms='mux start default'
+alias ml='mux local'

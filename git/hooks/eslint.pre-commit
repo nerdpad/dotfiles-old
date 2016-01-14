@@ -31,7 +31,7 @@ echo ""
 if [[ ${EXIT_CODE} -ne 0 ]]; then
     echo "${COLOR_RED}✘ JSHINT detected syntax problems.${COLOR_NONE}"
 else
-    echo "${COLOR_GREEN}✔ESLINT detected no errors.${COLOR_NONE}"
+    echo "${COLOR_GREEN}✔ ESLINT detected no errors.${COLOR_NONE}"
 fi
 
 exit $((${EXIT_CODE}))

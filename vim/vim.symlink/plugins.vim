@@ -42,6 +42,8 @@ Plug 'sickill/vim-pasta' " context-aware pasting
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' } " distraction-free writing
 Plug 'junegunn/limelight.vim', { 'on': 'Limelight' } " focus tool. Good for presentating with vim
 Plug 'jszakmeister/vim-togglecursor'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --omnisharp-completer --tern-completer' }
+Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 
 " language-specific plugins
 Plug 'mattn/emmet-vim', { 'for': 'html' }
