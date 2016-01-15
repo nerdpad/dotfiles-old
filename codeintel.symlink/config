@@ -1,0 +1,11 @@
+{
+    "codeintel_selected_catalogs": ["jQuery", "HTML5"],
+    "codeintel_syntax_map": {
+        "JavaScript": "Node.js"
+    },
+    "JavaScript": {
+        "javascriptExtraPaths": [
+            "~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/libs/codeintel2/lib_srcs/node.js"
+        ]
+    }
+}
