@@ -1,7 +1,7 @@
 # gitconfig
 [user]
-    name = Zuhaib Zakaria 
-    email = zzakaria@vmware.com
+	name = Zuhaib
+	email = zzakaria@vmware.com
 [github]
     user = zzakaria
 [init]
@@ -119,7 +119,7 @@
     # do not warn about missing whitespace at EOF
     whitespace = nowarn
 [core]
-    excludesfile = ~/.gitignore_global
+	excludesfile = /Users/zzakaria/.gitignore_global
     pager = less -FXRS -x2
     editor = vim
 [rerere]
@@ -138,3 +138,9 @@
 	trustexitcode = true
 [rebase]
 	instructionFormat = "[%an - %ar] %s"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
