@@ -1,0 +1,31 @@
+{
+  "predef": [
+	  "exports",
+	  "global",
+	  "process",
+	  "require",
+	  "__filename",
+	  "module",
+	  "document",
+	  "navigator",
+	  "console",
+	  "window",
+      "describe",
+      "it"
+  ],
+
+  "browser":    true,
+  "devel":      true,
+  "node":       true,
+  "rhino":      false,
+  "widget":     false,
+  "windows":    false,
+  "es6":        true,
+  "for":        true,
+  "this":       true,
+  "multivar":   true,
+
+  "indent":     4,
+  "maxerr":     50,
+  "passfail":   false
+}

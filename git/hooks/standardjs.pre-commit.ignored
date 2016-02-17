@@ -1,0 +1,25 @@
+#!/bin/sh
+# StandardJS Pre-Commit
+# If a JavaScript file is trying to be committed and it fails linting
+# then fail the commit
+
+EXIT_CODE=0
+COLOR_RED="\x1B[31m"
+COLOR_YELLOW="\x1B[1;33m"
+COLOR_GREEN="\x1B[32m"
+COLOR_NONE="\x1B[0m"
+
+git diff --name-only --cached --relative | grep '\.js$' | xargs standard
+
+EXIT_CODE=$?
+
+echo ${EXIT_CODE}
+echo $EXIT_CODE
+echo ""
+if [ ${EXIT_CODE} -ne 0 ]; then
+    echo "${COLOR_RED}✘ StandardJS detected syntax problems.${COLOR_NONE}"
+else
+    echo "${COLOR_GREEN}✔ StandardJS detected no errors.${COLOR_NONE}"
+fi
+
+exit $((${EXIT_CODE}))

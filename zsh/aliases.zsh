@@ -83,3 +83,8 @@ alias canary="/Applications/Google\\ Chrome\\ Canary.app/Contents/MacOS/Google\\
 
 # Vargrant
 alias vg=vagrant
+
+# Node
+alias ns="npm start"
+alias nt="npm test"
+
