@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 "
 " colorschemes
 Plug 'chriskempson/base16-vim'
+Plug 'joshdick/onedark.vim'
 
 
 Plug 'ctrlpvim/ctrlp.vim'
@@ -22,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'benmills/vimux'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'joshdick/airline-onedark.vim'
 Plug 'scrooloose/syntastic'
 " Plug 'benekastah/neomake'
 Plug 'tpope/vim-fugitive'

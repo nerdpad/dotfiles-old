@@ -83,9 +83,9 @@ if has('autocmd') && !exists('autocommands_loaded')
     " autoformat code on save
     " for javascript
     autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
-    " for json 
+    " for json
     autocmd FileType json noremap <buffer> <c-f> :call JsonBeautify()<cr>
-    " for jsx 
+    " for jsx
     autocmd FileType jsx noremap <buffer> <c-f> :call JsxBeautify()<cr>
     " for html
     autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
