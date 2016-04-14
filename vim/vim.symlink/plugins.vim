@@ -52,7 +52,7 @@ Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'mattn/emmet-vim', { 'for': 'html' }
 Plug 'gregsexton/MatchTag', { 'for': 'html' }
 Plug 'othree/html5.vim', { 'for': 'html' }
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+" Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
 Plug 'mxw/vim-jsx', { 'for': 'jsx' }
