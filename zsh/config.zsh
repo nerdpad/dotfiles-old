@@ -6,6 +6,8 @@ setopt LOCAL_TRAPS
 #setopt IGNORE_EOF
 setopt PROMPT_SUBST
 setopt NO_BEEP
+setopt AUTO_CD
+setopt AUTO_PUSHD
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -31,5 +33,5 @@ bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
 
-fpath=($ZSH/functions $fpath)
-autoload -U $ZSH/functions/*(:t)
+fpath=($ZZSH/functions $fpath)
+autoload -U $ZZSH/functions/*(:t)

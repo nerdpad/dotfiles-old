@@ -45,16 +45,17 @@ Plug 'sickill/vim-pasta' " context-aware pasting
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' } " distraction-free writing
 Plug 'junegunn/limelight.vim', { 'on': 'Limelight' } " focus tool. Good for presentating with vim
 Plug 'jszakmeister/vim-togglecursor'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --omnisharp-completer --tern-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 
 " language-specific plugins
 Plug 'mattn/emmet-vim', { 'for': 'html' }
 Plug 'gregsexton/MatchTag', { 'for': 'html' }
 Plug 'othree/html5.vim', { 'for': 'html' }
-" Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': 'javascript' }
 Plug 'mxw/vim-jsx', { 'for': 'jsx' }
 Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'Quramy/tsuquyomi', { 'for': 'typescript', 'do': 'npm install' }
