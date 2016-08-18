@@ -41,7 +41,7 @@ for config ($ZZSH/**/*completion.sh) source $config
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent)
+plugins=(git ssh-agent docker)
 
 export EDITOR='vim'
 
@@ -59,6 +59,10 @@ export PATH=$DOTFILES/bin:$PATH
 if [[ -d ~/bin ]]; then
     export PATH=~/bin:$PATH
 fi
+
+
+# Set CLICOLOR if you want Ansi Colors in iTerm2
+export CLICOLOR=1
 
 [ -z "$TMUX" ] && export TERM=xterm-256color
 
@@ -106,7 +110,7 @@ load-nvmrc
 
 # Base16 Shell
 # if [ -z "$THEME" ]; then
-    export THEME="base16-tomorrow"
+    export THEME="base16-summerfruit"
 # fi
 if [ -z "$BACKGROUND" ]; then
     export BACKGROUND="dark"
@@ -120,3 +124,9 @@ source $BASE16_SHELL
 
 # iTerm2 Shell Integration
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+
+
+
+# TEMP rails
+export RAILS_ENV=development_sqlite
+export BUNDLE_GEMFILE=Gemfileosx

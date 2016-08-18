@@ -82,8 +82,9 @@ alias chrome="/Applications/Google\\ \\Chrome.app/Contents/MacOS/Google\\ \\Chro
 alias canary="/Applications/Google\\ Chrome\\ Canary.app/Contents/MacOS/Google\\ Chrome\\ Canary"
 alias ogc='open -a Google\ Chrome --args --disable-web-security'
 
-# Vargrant
+# Vargrant/docker
 alias vg=vagrant
+alias dm=docker-machine
 
 # Node
 alias ns="npm start"
